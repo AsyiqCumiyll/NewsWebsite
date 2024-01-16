@@ -1,0 +1,96 @@
+
+        .logo{
+        height:50px;
+        width: 50px;
+      }
+        body {
+            background-color: #000;
+            color: #e7e1e1;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .container-md {
+            border: 1px solid #120b0b;
+            padding: 15px;
+            margin-bottom: 20px;
+            background-color: #070707;
+        }
+
+        .right-div {
+            color:rgb(238, 243, 238);
+            float: right;
+            width: 350px;
+            height: 100%; /* Set height to 100% of viewport height */
+            background-color: rgba(20, 20, 20, 0.77);
+            padding: 10px;
+            margin-bottom: 20px;
+            
+        }
+
+        .right-div h1 {
+            margin-bottom: 10px;
+        }
+
+        .right-div img.small-image {
+            width: 100%;
+            max-width: 200px;
+            height:auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #eeeeea;
+        }
+
+        p {
+            line-height: 2.0;
+        }
+
+        /* Added styles for navbar and search bar */
+        .search-bar {
+            display: inline-block;
+            margin-left: auto;
+        }
+
+        .welcome {
+            text-align: center;
+            padding: 30px;
+        }
+
+        nav {
+            margin-bottom: 20px;
+        }
+        footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #474e5d;
+  color: white;
+  padding: 10px;
+  text-align: left; /* Align text to the left */
+}
+a {
+  color: white;
+  text-decoration: none; /* Remove underlines by default on links */
+}
+
+a:hover {
+  color: lightgray; /* Change color on hover if desired */
+}
+
+ul.horizontal-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+ul.horizontal-list li {
+  margin-right: 50px; /* Adjust spacing between list items */
+}
+
+ul.horizontal-list img {
+  display: block; /* Remove extra space below images */
+}

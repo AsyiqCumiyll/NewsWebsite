@@ -1,0 +1,145 @@
+
+.logo{
+height:50px;
+width:50px;
+}
+body {
+        background-color: #000;
+        color: #e7e1e1;
+        font-family: Arial, sans-serif;
+        padding: 20px;
+    }
+.search-bar {
+  display: inline-block;
+  margin-left: auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+  border-radius: 15px;
+  overflow: hidden;
+  height: 45rem;
+  background-color: rgba(20, 20, 20, 0.77);
+}
+.column {
+  float: left;
+  width: 33.33%;
+  margin-bottom: 16px;
+  padding: 8px;
+}
+
+.card img {
+  width: 50rem;
+  height: 50rem;
+  border-radius: 55%;
+  padding: 50px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.do-section {
+  padding: 50px;
+  background-color: rgba(20, 20, 20, 0.77);
+}
+.motto{
+  padding: 50px;
+  text-align:center;
+  background-color: rgba(20, 20, 20, 0.77);
+}
+.contact{
+  padding: 50px;
+  text-align:center;
+  background-color: rgba(20, 20, 20, 0.77);	
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 350px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+footer {
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: #474e5d;
+color: white;
+padding: 10px;
+text-align: left; /* Align text to the left */
+}
+a {
+color: white;
+text-decoration: none; /* Remove underlines by default on links */
+}
+
+a:hover {
+color: lightgray; /* Change color on hover if desired */
+}
+
+ul.horizontal-list {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+ul.horizontal-list li {
+margin-right: 50px; /* Adjust spacing between list items */
+}
+
+ul.horizontal-list img {
+display: block; /* Remove extra space below images */
+}
+
+.do-section p {
+    text-align: justify;
+    text-indent: 20px;
+}
+.contact ul.horizontal-list {
+display: flex;
+justify-content: center;
+list-style: none;
+}
+
+.contact ul.horizontal-list li {
+margin-right: 40px; /* Adjust spacing between list items if needed */
+}
+
+
